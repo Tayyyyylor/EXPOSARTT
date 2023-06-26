@@ -1,7 +1,13 @@
+import Logo from "../atoms/logo/Logo"
+import Navbar from "./navbar/Navbar"
+import { HeaderContainer } from "./Heder.styles"
 
 function Header() {
   return (
-    <div>Header</div>
+    <HeaderContainer>
+      <Logo />
+      <Navbar/>
+    </HeaderContainer>
   )
 }
 
